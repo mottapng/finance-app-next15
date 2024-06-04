@@ -1,10 +1,10 @@
 import { Card, CardHeader, CardTitle } from '@/components/ui/card'
 
-export const BalanceCard = () => {
+export const ExpensesCard = () => {
   return (
-    <Card className="col-span-3 lg:col-span-2 row-span-3">
+    <Card className="row-span-2">
       <CardHeader>
-        <CardTitle>Balance</CardTitle>
+        <CardTitle>Expenses</CardTitle>
       </CardHeader>
     </Card>
   )

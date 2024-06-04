@@ -10,9 +10,9 @@ const DashboardLayout = ({ children }: Props) => {
     <main className="flex bg-secondary">
       <Sidebar />
 
-      <div className="flex h-screen flex-1 flex-col pb-6 max-md:pb-14">
+      <div className="flex h-screen flex-1 flex-col">
         <Header />
-        <section>{children}</section>
+        <section className="h-full">{children}</section>
       </div>
     </main>
   )

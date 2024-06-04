@@ -4,7 +4,7 @@ import { UserMenu } from './user-menu'
 
 export const Header = () => {
   return (
-    <div className="bg-background">
+    <div className="bg-background border-b">
       <div className="container px-6 sm:px-14 flex items-center w-full py-4">
         <HeaderSheet />
 

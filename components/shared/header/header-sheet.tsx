@@ -52,7 +52,7 @@ const NavLink = ({ href, icon, label }: NavLinkProps) => {
         href={href}
         className={`flex items-center gap-3 rounded-lg px-4 py-4 w-full text-foreground transition-all ${
           isActive
-            ? 'font-bold bg-gradient-to-tl from-primary/80 to-primary/10'
+            ? 'font-bold bg-gradient-to-tl from-primary to-primary/20'
             : 'hover:bg-primary/10'
         }`}
       >
