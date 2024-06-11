@@ -10,7 +10,7 @@ export const DataGrid = () => {
   return (
     <div className="w-full h-full flex flex-col">
       <Head />
-      <div className="grid grid-cols-3 grid-rows-5 gap-4 flex-1 mt-6">
+      <div className="grid grid-cols-3 grid-rows-5 gap-4 flex-1 mt-6 max-h-full">
         <BalanceCard />
         <SpendingCard />
         <SavingCard />

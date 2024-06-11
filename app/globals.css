@@ -66,6 +66,20 @@
 
     --ring: 263.4 70% 50.4%;
   }
+
+  .progress-bar {
+    background-image: linear-gradient(
+      135deg,
+      rgba(255, 255, 255, 0.05) 25%,
+      transparent 25%,
+      transparent 50%,
+      rgba(255, 255, 255, 0.05) 50%,
+      rgba(255, 255, 255, 0.05) 75%,
+      transparent 75%,
+      transparent
+    );
+    background-size: 40px 40px;
+  }
 }
 
 @layer base {
